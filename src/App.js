@@ -26,6 +26,7 @@ const App = ({date}) => {
         <button onClick={onClick} id={index}>delete</button>
         <button>report</button>
       </li>
+      
     );
   });
   const onSubmit = e => {
@@ -43,7 +44,7 @@ const App = ({date}) => {
         <button type="submit" name="submit" value="submit">Submit</button>
       </form>
       <div className="main">
-        <h2>Comments</h2>
+        <h2>{date.length}Comments</h2>
         <ul>{Listar}</ul>
       </div>
     </div>
