@@ -8,6 +8,7 @@ export const addComent = (user,moreComent) => {
     coment : moreComent
   })
   store.setState({
+    date : actualList,
      selectedSong : -1
   })
 }
