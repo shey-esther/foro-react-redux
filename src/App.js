@@ -14,7 +14,7 @@ const App = () => {
         <button type="submit" name="submit" value="submit">Submit</button>
       </form>
       <div className="main">
-        <h2>Comments</h2>
+        <h2>0Comments</h2>
       </div>
     </div>
   );
