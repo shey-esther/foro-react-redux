@@ -2,9 +2,13 @@ import createStore from 'redux-zero'
 
 const DATE = [
   {
-     name: 'kaljdi',
+     name: 'esther',
      text : 'jaidji------'
   },
+  {
+    name: 'esthppper',
+    text : 'jaidji------'
+ },
 ]
 
 const initialState = {
